@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #007BFF; /* Color de fondo azul */
+    color: white; /* Color del texto blanco */
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.info {
+    margin-bottom: 15px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image-container {
+    width: 45%; /* Ajustar el tamaño de las imágenes */
+    margin-bottom: 15px;
+}
+
+img {
+    width: 100%;
+    height: auto; /* Mantener la proporción de las imágenes */
+    border-radius: 4px;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 14px;
+}
